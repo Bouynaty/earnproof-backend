@@ -9,10 +9,10 @@
     "npm": ">=10.0.0"
   },
   "scripts": {
-    "build": "prisma generate && nest build",
-    "start": "node dist/main.js",
-    "start:nest": "nest start",
-    "start:dev": "nest start --watch",
+    "build": "node init && prisma generate && nest build",
+    "start": "node init && node dist/main.js",
+    "start:nest": "node init && nest start",
+    "start:dev": "node init && nest start --watch",
     "lint": "eslint \"src/**/*.ts\"",
     "test": "jest",
     "test:watch": "jest --watch",
