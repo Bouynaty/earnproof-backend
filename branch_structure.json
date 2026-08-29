@@ -1,0 +1,18 @@
+{
+  "default_branch": "develop",
+  "branches": [
+    "develop",
+    "origin",
+    "security/issue-3-add-cursor-based-resumable-stellar-payment"
+  ],
+  "parent": {
+    "develop": null,
+    "origin": "develop",
+    "security/issue-3-add-cursor-based-resumable-stellar-payment": "develop"
+  },
+  "order": [
+    "develop",
+    "origin",
+    "security/issue-3-add-cursor-based-resumable-stellar-payment"
+  ]
+}
